@@ -1,4 +1,5 @@
 export async function onRequest(context) {
-      return new Response("Hello, world!")
+      console.log("🚀 ~ onRequest ~ context:", context);
+      return new Response("Hello, world! from Helllo World Cloud Function");
     } 
   

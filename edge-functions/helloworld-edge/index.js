@@ -1,7 +1,7 @@
 export function onRequest(context) {
   const json = JSON.stringify({
     "code": 0,
-    "message": "Hello World"
+    "message": "Hello World edge"
   });
   return new Response(json, {
     headers: {

@@ -1,20 +1,62 @@
 {
-  "routes": [
-    {
-      "routePath": "/helloworld-cloud",
-      "mountPath": "helloworld-cloud",
-      "method": [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE",
-        "PATCH",
-        "HEAD",
-        "OPTIONS"
-      ],
-      "module": [
-        "helloworld-cloud/index.js:onRequest"
-      ]
-    }
-  ]
+  "request": {
+    "maxFollow": 12,
+    "version": "HTTP/1.1",
+    "eo": {
+      "geo": {
+        "asn": 132203,
+        "countryName": "Hong Kong",
+        "countryCodeAlpha2": "HK",
+        "countryCodeAlpha3": "HKG",
+        "countryCodeNumeric": "344",
+        "regionName": "Hong Kong",
+        "regionCode": "CN-HK",
+        "cityName": "Hong Kong",
+        "latitude": 22.276283264160156,
+        "longitude": 114.16382598876953,
+        "cisp": "腾讯网络"
+      },
+      "uuid": "1285554467693777299",
+      "clientIp": "43.132.141.21"
+    },
+    "cf": {
+      "geo": {
+        "asn": 132203,
+        "countryName": "Hong Kong",
+        "countryCodeAlpha2": "HK",
+        "countryCodeAlpha3": "HKG",
+        "countryCodeNumeric": "344",
+        "regionName": "Hong Kong",
+        "regionCode": "CN-HK",
+        "cityName": "Hong Kong",
+        "latitude": 22.276283264160156,
+        "longitude": 114.16382598876953,
+        "cisp": "腾讯网络"
+      },
+      "uuid": "1285554467693777299",
+      "clientIp": "43.132.141.21"
+    },
+    "url": "https://ae4bb2eb-de64-4461-b8ee-81cd26444498.edgeone.app/muti/abc/123/efg/hello",
+    "referrer": "about:client",
+    "redirect": "follow",
+    "mode": "cors",
+    "method": "GET",
+    "integrity": "",
+    "headers": {},
+    "credentials": "same-origin",
+    "cache": "default",
+    "bodyUsed": false,
+    "body": {
+      "locked": false
+    },
+    "destination": "",
+    "referrerPolicy": ""
+  },
+  "params": {
+    "123": "123",
+    "abc": "abc"
+  },
+  "env": {
+    "DEBUG": "true"
+  }
 }
