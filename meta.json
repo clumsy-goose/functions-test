@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "routePath": "/helloworld-cloud",
+      "mountPath": "helloworld-cloud",
+      "method": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE",
+        "PATCH",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "module": [
+        "helloworld-cloud/index.js:onRequest"
+      ]
+    }
+  ]
+}
