@@ -1,7 +1,0 @@
-export default function onRequest(context) {
-
-  // console.log("🚀 ~ onRequest ~ req:", context.request);
-  console.log("🚀 ~ onRequest ~ url:", context.request.url);
-  
-  return new Response('Hello World'+JSON.stringify(context.request.url, null, 2));
-}

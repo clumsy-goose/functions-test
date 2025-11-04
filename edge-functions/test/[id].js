@@ -1,4 +1,5 @@
 export function onRequest(context) {
+  console.log("🚀 ~ onRequest ~ context:", context);
   const json = JSON.stringify({
     "code": 0,
     "message": `Hello ${context.params.id}`
